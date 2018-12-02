@@ -78,8 +78,6 @@ America/Sao_Paulo
 http: // <IP-OU-DOMINIO-ZABBIX> / zabbix 
 ```
 
-* Acessar diretório ```/etc/openvpn``` e criar a chave de encriptação de 2048 bits, que será usada para criar a conexão
-
 --- 
 
 ## Instalação do utilitário SNMP
@@ -117,6 +115,7 @@ iso.3.6.1.2.1.1.9.1.4.9 = Timeticks: (4) 0:00:00.04
 * Na máquina cliente, instalar o pacote deamon do protocolo SNMP, nomeado ```SNMPD```
 
 ```
+# apt update
 # aptitude install snmpd
 ```
 
